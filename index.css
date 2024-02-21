@@ -1,0 +1,50 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul li{
+    padding: 10px;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgrey;;
+  margin:5px;
+  border-radius: 10px;;
+}
+#image{
+    width: 100%;
+    height: auto;
+}
+#img-div{
+   width : 80%;
+   border-radius: 10px;;
+   background-color: white;
+   padding: 25px;
+}
+#tribute-info{
+    width: 80%;
+    color: rgba(0,0,0,0.7);
+}
+footer{
+    text-align: center;
+    margin-top: 20px;
+    padding:10px;
+    font-weight: bold;
+}
+.quote{
+    font-style: italic;
+    font-weight: lighter;
+    padding: 10px;
+}
+.author{
+    text-align: left;
+    font-style: italic;
+    padding: 10px;
+    font-weight: lighter;
+}
+
+#title{
+    text-align: center;
+}
